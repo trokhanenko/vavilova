@@ -1,0 +1,17 @@
+.fax, .phone, .mail{
+	padding-left: 25px;
+	color: #929292;
+	display: inline-block;
+}
+span.phone {
+    margin-left: 55px;
+    margin-right: 55px;
+    background: url('/themes/vavilova/images/ico-phone.png') no-repeat left center;
+}
+.fax{
+	background: url('/themes/vavilova/images/icon-fax.png') no-repeat left center;
+}
+.mail{
+	padding-left: 30px;
+	background: url('/themes/vavilova/images/ico-mail.png') no-repeat left center;
+}

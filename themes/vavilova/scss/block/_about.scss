@@ -1,0 +1,62 @@
+.about{
+	h2{
+		text-align: center;
+		margin: 50px 0 20px 0;
+	}
+	.field--name-body{ 
+		font-size: 16px;
+	}
+}
+.about-row{
+	background: url(/themes/vavilova/images/back_about.png) bottom center no-repeat;
+	padding: 30px 0 20px 0;
+	margin-top: 10px;
+	.field--name-field-slogan{
+		font-size: 26px;
+		font-weight: bold;
+		@include respond-to(xs) {
+			font-size: 16px;
+		}
+		span{
+			color: #f22f41;
+		}
+	}
+	.address, .slogan, .picture-doc{
+		height: 90px;
+		font-size: 14px;
+	}
+	.address{
+		@include respond-to(xs) {
+			padding: 0;
+		}
+	}
+	.slogan{
+		padding:0;
+		@include respond-to(xs) {
+			height: 40px;
+		}
+	}
+	.field--name-field-phone,
+	.field--name-field-addres,
+	.field--name-field-site{
+		margin: 5px 0 5px 0;
+	}
+	.field--name-field-site{
+		a{
+			color: #009bb7;
+			&:hover{
+				cursor: pointer;
+			}
+		}
+	}
+	.picture-doc{
+		img{
+			height: 380px;
+			width: auto;
+			position: relative;
+    		top: -270px;
+		}
+		@include respond-to(xs) { display: none;}
+	}
+}
+

@@ -1,0 +1,26 @@
+.block-language{
+	width: 250px;
+	float: right;
+	ul{
+    	list-style: none;
+    	li{
+    		box-shadow: 0px 0px 5px #ccc;
+    		display: inline-block;
+    		margin-right: 10px;
+    		height: 30px;
+    		width: 40px;
+    		a{
+    			display: block;
+    			height: 30px;
+    			width: 40px;
+    			font-size: 0;
+    		}
+    	}
+    	.en{
+    		background: url(/themes/vavilova/images/uk.png) center center no-repeat;
+    	}
+    	.ru{
+    		background: url(/themes/vavilova/images/ru.png) center center no-repeat;
+    	}
+	}
+}

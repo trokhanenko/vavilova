@@ -1,0 +1,40 @@
+.backg{
+	background: #d3ccda;
+	margin: 0 0 30px 0;
+	padding: 0;
+	height: 350px;
+}
+.reviews{
+	text-align: center;
+	h2{
+		margin: 50px 0 50px 0;
+		@include respond-to(xs) {
+			margin: 15px 0 15px 0;
+		}
+	}
+	.views-field-body{
+		font-style: italic;
+		padding: 0 50px;
+		@include respond-to(xs) {
+			padding: 0 15px;
+		}
+	}
+	.views-field-created{
+		color: #929292;
+		font-style: italic;
+		margin: 20px 0;
+	}
+	.slick-arrow{
+		z-index: 2;
+    	height: 250px;
+    	@include respond-to(xs) {
+			height: 50px
+		}
+	}
+	.slick-next {
+    	right: -18px;
+	}
+	.slick-prev {
+    	left: -18px;
+	}
+}

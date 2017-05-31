@@ -1,0 +1,70 @@
+/* line 1, ../scss/main.scss */
+body {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+}
+
+/* line 8, ../scss/main.scss */
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 12, ../scss/main.scss */
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* navbar-default */
+/* line 17, ../scss/main.scss */
+.navbar-default {
+  background: none;
+  border: none;
+  border-radius: none;
+}
+/* line 22, ../scss/main.scss */
+.navbar-default .menu a {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 20px;
+  text-transform: uppercase;
+  color: #929292;
+  font-weight: bold;
+  box-sizing: content-box;
+}
+/* line 30, ../scss/main.scss */
+.navbar-default .menu a:hover {
+  color: #009bb7 !important;
+  border-bottom: 3px solid #009bb7;
+  box-sizing: content-box;
+}
+/* line 38, ../scss/main.scss */
+.navbar-default .navbar-nav {
+  height: 50px;
+}
+
+/* Pages people*/
+/* line 43, ../scss/main.scss */
+.page-node-type-people {
+  text-align: center;
+}
+/* line 45, ../scss/main.scss */
+.page-node-type-people img {
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+}
+/* line 50, ../scss/main.scss */
+.page-node-type-people .field--name-field-profession {
+  color: #f22f41;
+  font-weight: bold;
+  margin: 20px 0;
+}
+/* line 55, ../scss/main.scss */
+.page-node-type-people .field--name-body {
+  font-size: 16px;
+  margin: 20px 0;
+}

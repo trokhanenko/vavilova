@@ -1,0 +1,43 @@
+
+{%
+  set classes = [
+    'block',
+    'block-' ~ configuration.provider|clean_class,
+    'block-' ~ plugin_id|clean_class,
+    'clearfix',
+  ]
+%}
+
+<section{{ attributes.addClass(classes) }}>
+  <div class="container about" id="about">
+    {{ title_prefix }}
+    {% if label %}
+      <h2{{ title_attributes.addClass('block-title') }}>{{ label }}</h2>
+    {% endif %}
+    {{ title_suffix }}
+
+    {% block content %}
+    <div class="row">
+      <div class="col-md-9">
+        {{ content.body }}
+      </div>
+    </div>
+    {% endblock %}
+  </div>
+
+  <div class="row about-row">
+    <div class="container">
+      <div class="col-md-4 slogan">
+        {{ content.field_slogan }}
+      </div>
+      <div class="col-md-4 address">
+          {{ content.field_phone }}
+          {{ content.field_addres }}
+          {{ content.field_site }}
+      </div>
+      <div class="col-md-4 picture-doc">
+        {{ content.field_background }}
+      </div>
+    </div>
+  </div>
+</section>

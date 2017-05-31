@@ -1,0 +1,53 @@
+.ourteam{
+	text-align: center;
+	margin-bottom: 25px;
+	h2{
+		margin: 40px 0 30px 0;
+	}
+	.item-ourteam{
+	    width: 22.22%;
+	    margin: 0 20px 10px 20px;
+	    padding: 25px 10px 10px 10px;
+	    background: rgba(0,155,183, 0.3);;
+	    border-radius: 5px;
+	    height: 470px;
+	    &:hover{
+	    	background: rgba(0,155,183, 0.5);
+	    	cursor: pointer;
+	    }
+	    img{
+			margin: 0 auto;
+			width: 210px;
+			height: 210px;
+		}
+		.views-field-title{
+			font-size: 16px;
+			margin: 15px 0 10px 0;
+		}
+		.views-field-field-profession{
+			color: #f22f41;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+		.views-field-view-node{
+			margin-top: 10px;
+			a{
+				color: #0890b1;
+				cursor: pointer;
+			}
+		}
+	}
+	.slick-arrow{
+		z-index: 2;
+    	height: 250px;
+    	@include respond-to(xs) {
+			height: 50px
+		}
+	}
+	.slick-next {
+    	right: -18px;
+	}
+	.slick-prev {
+    	left: -18px;
+	}
+}

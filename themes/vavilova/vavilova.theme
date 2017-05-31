@@ -1,0 +1,9 @@
+<?php
+
+function vavilova_preprocess_block(&$variables){
+    $test = "cscsc";
+	/*if ($variables['elements']['id'] == 'aboutus'){
+		$url = file_create_url($variables['content']['#block_content']->field_background->entity->getFileUri());
+		$variables['backgroung_url'] = $url;
+	}*/
+}

@@ -1,0 +1,61 @@
+body{
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+/* navbar-default */
+.navbar-default {
+	background: none;
+	border: none;
+	border-radius: none;
+	.menu{
+		a{
+			padding-left: 0;
+			padding-right: 0;
+			margin-left: 20px;
+			text-transform: uppercase;
+			color: #929292;
+			font-weight: bold;
+			box-sizing: content-box; 
+			&:hover{
+				color: #009bb7 !important;
+				border-bottom: 3px solid #009bb7;
+				box-sizing: content-box; 
+			}
+
+		}
+	}
+	.navbar-nav{
+		height: 50px;
+	}
+}
+/* Pages people*/
+.page-node-type-people{
+	text-align: center;
+	img{
+		height: 200px;
+		width: 200px;
+		margin: 0 auto;
+	}
+	.field--name-field-profession{
+		color: #f22f41;
+		font-weight: bold;
+		margin: 20px 0;
+	}
+	.field--name-body{
+		font-size: 16px;
+		margin: 20px 0;
+	}
+}
+
+

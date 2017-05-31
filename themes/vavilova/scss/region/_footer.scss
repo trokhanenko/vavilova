@@ -1,0 +1,52 @@
+body .footer {
+	background: #1c1c1c;
+	border-top: none;
+	color: $grey;
+	padding-bottom: 5px;
+	margin-top: 0;
+	.row-one{
+		margin-bottom: 15px;
+	}
+	a{
+		cursor: pointer;
+		color: $grey;
+		&:hover{
+			color: #0890b1;
+		}
+	}
+	i{
+		font-size: 20px;
+	}
+	.menu {
+		li{
+			margin-right: 30px;
+		}
+		a{
+			text-transform: uppercase;
+			padding-left: 0;
+			font-weight: bold;
+			background: none;
+			&:hover{
+				color: #0890b1;
+			}
+		}
+	}
+	.field--name-field-site{
+		a{
+			text-decoration: underline;
+		}
+	}
+	img{
+		width: 95%;
+	}
+	.field--name-field-phone,
+	.field--name-field-e-mail,
+	.field--name-field-site{
+		margin-bottom: 10px;
+	}
+}
+.region.region-footer {
+	margin-top: 15px;
+    border-top: 1px solid #ccc;
+    padding-top: 8px;
+}

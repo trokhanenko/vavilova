@@ -1,0 +1,115 @@
+.contact{
+	margin: 30px auto 0;
+	width: 800px;
+	@include respond-to(xs) {
+		width: auto;
+	}
+	#block-contact{
+		position: relative;
+   		top: 50px;
+		background: #fff;
+		padding-left:70px;
+		box-shadow: 0px 0px 15px  #eee;
+		height: 420px;
+		margin:0;
+		float: left;
+		width: 60%;
+		z-index: 99;
+		@include respond-to(xs) {
+			float: none;
+			padding-left:10px;
+			width: 100%;
+		}
+		h2{
+			margin: 20px 0 0 0;
+			text-align: center;
+		}
+		.field{
+			padding: 13px 60px;
+			margin-bottom: 10px;
+		}
+		.field--name-field-phone{
+			background: url(/themes/vavilova/images/contact/ico-phone.png) left center no-repeat;
+			background-size: 35px;
+		}
+		.field--name-field-fax{
+			background: url(/themes/vavilova/images/contact/icon-fax.png) left center no-repeat;
+			background-size: 35px;
+		}
+		.field--name-field-site{
+			background: url(/themes/vavilova/images/contact/ico-site.png) left center no-repeat;
+			background-size: 35px;
+		}
+		.field--name-field-e-mail{
+			background: url(/themes/vavilova/images/contact/ico-mail.png) left center no-repeat;
+			background-size: 35px;
+		}
+		.field--name-field-addres{
+			background: url(/themes/vavilova/images/contact/io-lication.png) left center no-repeat;
+			background-size: 25px;
+			background-position: 5px;
+		}
+		.field--name-field-social{
+			background: url(/themes/vavilova/images/contact/icon-social.png) left center no-repeat;
+			background-size: 45px;
+			i{
+				font-size: 18px;
+			}
+		}
+
+	}
+	#block-webform{
+		position: relative;
+    	top: 50px;
+    	left: -9px;
+    	box-shadow-left: none;
+		padding: 10px 20px 20px 20px;
+		background: #4cb9cc;
+		height: 420px;
+		margin: 0;
+		float: right;
+		width: 39%;
+		z-index: 99;
+		@include respond-to(xs) {
+			float: none;
+			width: 100%;
+			top: 60px;
+			left: 0;
+		}
+		h2{
+			color: #fff;
+			margin: 15px 0 10px 0;
+			font-size: 20px;
+			text-align: center;
+			&:after{
+			   	content: url(/themes/vavilova/images/contact-line.png);
+			   	width: 100px;
+			}
+		}
+		input{
+			width: 100%;
+			padding: 20px 10px;
+    		border-radius: 8px;
+    		text-transform: uppercase;
+
+		}
+		textarea{
+			width: 100%;
+			padding: 10px 10px;
+    		border-radius: 8px;
+    		text-transform: uppercase;
+		}
+		.button{
+			color: #fff;
+			font-size: 12px;
+			padding: 10px 5px;
+    		border-radius: 8px;
+			background: transparent;
+			text-transform: uppercase;
+			border: 1px solid #fff;
+			width: 80%;
+			display: block;
+			margin: 20px auto;
+		}
+	}
+}
